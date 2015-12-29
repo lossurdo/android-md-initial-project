@@ -1,2 +1,138 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/home/lossurdo/apps/android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/home/lossurdo/desenvolvimento/android-md-initial-project/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1_864404e2e02efda69dd710d3bcf9dbde933fa379.jar" />
+    </item>
+    <item
+        jar="/home/lossurdo/desenvolvimento/android-md-initial-project/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/home/lossurdo/desenvolvimento/android-md-initial-project/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.1.1_33e5a9c4c30ffaf852f7b92609f03fdbbbd7dea6.jar" />
+    </item>
+    <item
+        jar="/home/lossurdo/desenvolvimento/android-md-initial-project/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/home/lossurdo/desenvolvimento/android-md-initial-project/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1_cf71d5abffd60b47c4201174fd2f2019aa7e383e.jar" />
+    </item>
+    <item
+        jar="/home/lossurdo/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/2.0.0-beta2/880d9e0997b2d1bfc98e0d121ced33ee5d04aac4/retrofit-2.0.0-beta2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="880d9e0997b2d1bfc98e0d121ced33ee5d04aac4">
+        <dex dex="/home/lossurdo/desenvolvimento/android-md-initial-project/app/build/intermediates/pre-dexed/debug/retrofit-2.0.0-beta2_874d02efc6f470befa0a3edbe8bb64b41ac5d30d.jar" />
+    </item>
+    <item
+        jar="/home/lossurdo/desenvolvimento/android-md-initial-project/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="/home/lossurdo/desenvolvimento/android-md-initial-project/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.1.1_5e448d883e7742c8a80d8c65ad6566c27f23eb13.jar" />
+    </item>
+    <item
+        jar="/home/lossurdo/desenvolvimento/android-md-initial-project/app/build/intermediates/exploded-aar/net.the4thdimension/android-utils/2.0.4/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b93a843f308fe9545f83367461e31c23a37820f6">
+        <dex dex="/home/lossurdo/desenvolvimento/android-md-initial-project/app/build/intermediates/pre-dexed/debug/net.the4thdimension-android-utils-2.0.4_bd043c234dcbdf2091098ce40b67afc6bec3ef3f.jar" />
+    </item>
+    <item
+        jar="/home/lossurdo/desenvolvimento/android-md-initial-project/app/build/intermediates/exploded-aar/com.jakewharton.timber/timber/4.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f45a0143e9c43a459f3f331a6b3e7daf13981ef4">
+        <dex dex="/home/lossurdo/desenvolvimento/android-md-initial-project/app/build/intermediates/pre-dexed/debug/com.jakewharton.timber-timber-4.1.0_c5eb8fe767d7a76fc5e7cdf1390288421d0a4961.jar" />
+    </item>
+    <item
+        jar="/home/lossurdo/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/converter-gson/2.0.0-beta2/392c3d09e0f5e7087544093cc0cb23bb9c7af5fa/converter-gson-2.0.0-beta2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="392c3d09e0f5e7087544093cc0cb23bb9c7af5fa">
+        <dex dex="/home/lossurdo/desenvolvimento/android-md-initial-project/app/build/intermediates/pre-dexed/debug/converter-gson-2.0.0-beta2_e9ebbdfc47d968d8322c55388fce48cf8178fe03.jar" />
+    </item>
+    <item
+        jar="/home/lossurdo/desenvolvimento/android-md-initial-project/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/home/lossurdo/desenvolvimento/android-md-initial-project/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.1.1_d01cc86951127d069e38713353e377889a773a54.jar" />
+    </item>
+    <item
+        jar="/home/lossurdo/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.5.0/4de2b4ed3445c37ec1720a7d214712e845a24636/okhttp-2.5.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
+        <dex dex="/home/lossurdo/desenvolvimento/android-md-initial-project/app/build/intermediates/pre-dexed/debug/okhttp-2.5.0_68aa498ad15e416b62aec1f0c0ff76472b149151.jar" />
+    </item>
+    <item
+        jar="/home/lossurdo/desenvolvimento/android-md-initial-project/app/build/intermediates/exploded-aar/com.malinskiy/materialicons/1.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ef367919068cab239d921b1c747258439b7a8fe4">
+        <dex dex="/home/lossurdo/desenvolvimento/android-md-initial-project/app/build/intermediates/pre-dexed/debug/com.malinskiy-materialicons-1.0.2_cc8d44579d89fef8d310d9401d01d13d78f815ea.jar" />
+    </item>
+    <item
+        jar="/home/lossurdo/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/home/lossurdo/desenvolvimento/android-md-initial-project/app/build/intermediates/pre-dexed/debug/gson-2.3.1_f163b6dc910fdcd23170ca84f1bd9ad5732a53ff.jar" />
+    </item>
+    <item
+        jar="/home/lossurdo/desenvolvimento/android-md-initial-project/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5e412e954a24c5310a459c09870e4e2081aceb03">
+        <dex dex="/home/lossurdo/desenvolvimento/android-md-initial-project/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-23.1.1_279db29fdbef6b69d40f69fb0bb8935b87b4aedc.jar" />
+    </item>
+    <item
+        jar="/home/lossurdo/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/home/lossurdo/desenvolvimento/android-md-initial-project/app/build/intermediates/pre-dexed/debug/okio-1.6.0_9d761206b3d7ac217b0052ab17d984f91fd3d8ff.jar" />
+    </item>
+    <item
+        jar="/home/lossurdo/desenvolvimento/android-md-initial-project/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="/home/lossurdo/desenvolvimento/android-md-initial-project/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.1.1_fe666aeac59de6e2eb9019eaadd86bcc59f256b1.jar" />
+    </item>
+    <item
+        jar="/home/lossurdo/desenvolvimento/android-md-initial-project/app/build/intermediates/exploded-aar/net.the4thdimension/android-utils/2.0.4/jars/libs/aws-android-sdk-1.4.6-s3.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="21685b7ea711a2665c80fe79d900752676952ce4">
+        <dex dex="/home/lossurdo/desenvolvimento/android-md-initial-project/app/build/intermediates/pre-dexed/debug/aws-android-sdk-1.4.6-s3_defe08bf4efca4be9df2156b4e3141dfd4652a68.jar" />
+    </item>
+    <item
+        jar="/home/lossurdo/desenvolvimento/android-md-initial-project/app/build/intermediates/exploded-aar/net.the4thdimension/android-utils/2.0.4/jars/libs/aws-android-sdk-1.4.6-core.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9fc4cfb0d252ed540faf64ac3f5d8281c8858417">
+        <dex dex="/home/lossurdo/desenvolvimento/android-md-initial-project/app/build/intermediates/pre-dexed/debug/aws-android-sdk-1.4.6-core_849dccdf92ade109d482f5e39765539195c65c42.jar" />
+    </item>
+    <item
+        jar="/home/lossurdo/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="/home/lossurdo/desenvolvimento/android-md-initial-project/app/build/intermediates/pre-dexed/debug/butterknife-7.0.1_cef0c9ddf8f3ed42e8bcf067db1ad15ec5670ed7.jar" />
+    </item>
+    <item
+        jar="/home/lossurdo/desenvolvimento/android-md-initial-project/app/build/intermediates/exploded-aar/net.the4thdimension/android-utils/2.0.4/jars/libs/libGoogleAnalyticsServices.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e887c6c9b31b39a39b0eaba981448b78902ea813">
+        <dex dex="/home/lossurdo/desenvolvimento/android-md-initial-project/app/build/intermediates/pre-dexed/debug/libGoogleAnalyticsServices_a5f94e2abb22b5fb13b7433e030bb2f46cc05e4c.jar" />
+    </item>
+
+</items>

@@ -47,6 +47,10 @@ dependencies {
     // material design icons (https://github.com/Malinskiy/android-material-icons)
     compile 'com.malinskiy:materialicons:1.0.2'
 
+    // HTTP Client (http://square.github.io/retrofit/)
+    compile 'com.squareup.retrofit:retrofit:2.0.0-beta2'
+    compile 'com.squareup.retrofit:converter-gson:2.0.0-beta2'
+
     /*
         https://github.com/changer/android-utils
 

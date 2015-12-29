@@ -1,4 +1,4 @@
-package com.lossurdo.androidmdinitialproject.util;
+package com.lossurdo.androidmdinitialproject.util.view;
 
 import android.app.Activity;
 

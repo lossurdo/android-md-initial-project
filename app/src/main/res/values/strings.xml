@@ -1,4 +1,7 @@
 <resources>
-    <string name="app_name">Android Material Design Initial Project</string>
-    <string name="action_settings">Settings</string>
+    <string name="app_name">Android MD Initial Project</string>
+    <string name="action_settings">Configuração</string>
+    <string name="dialog_error_title">Oops!</string>
+    <string name="dialog_general_error_message">Erro no processamento da operação!</string>
+    <string name="dialog_action_ok">OK</string>
 </resources>

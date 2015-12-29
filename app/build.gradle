@@ -29,16 +29,36 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:appcompat-v7:23.1.1'
-    compile 'com.android.support:design:23.1.1'
+    final SUPPORT_LIBRARY_VERSION = '23.1.1'
 
-    // logger
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile "com.android.support:appcompat-v7:$SUPPORT_LIBRARY_VERSION"
+    compile "com.android.support:design:$SUPPORT_LIBRARY_VERSION"
+    compile "com.android.support:cardview-v7:$SUPPORT_LIBRARY_VERSION"
+    compile "com.android.support:design:$SUPPORT_LIBRARY_VERSION"
+    compile "com.android.support:recyclerview-v7:$SUPPORT_LIBRARY_VERSION"
+
+    // logging
     compile 'com.jakewharton.timber:timber:4.1.0'
 
-    // inject
+    // injection
     compile 'com.jakewharton:butterknife:7.0.1'
 
-    // material design icons
+    // material design icons (https://github.com/Malinskiy/android-material-icons)
     compile 'com.malinskiy:materialicons:1.0.2'
+
+    /*
+        https://github.com/changer/android-utils
+
+        MediaUtils - Set of utilities to handle media resize, scaling, rotation and other relevant stuff.
+        ImageUtils - Set of utilities to handle image manipulation.
+        DateUtils - Set of utilities to handle date manipulation.
+        AudioUtils - Set of utilities to handle audio recodring, playing and saving to disk.
+        Utils - Set of general purpose utility methods.
+        StorageManager - Android SharedPreferences abstraction.
+        AWSUploader - Utility methods to upload objects to Amazon S3.
+        YouTubeUtils - Set of utilities to handle YouTube related stuff.
+        ViewUtils - Set of utilities to handle Android Views' related stuff.
+    */
+    compile 'net.the4thdimension:android-utils:2.0.4'
 }

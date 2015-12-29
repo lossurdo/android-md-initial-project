@@ -30,6 +30,13 @@
         <dex dex="/home/lossurdo/desenvolvimento/android-md-initial-project/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.1.1_5e448d883e7742c8a80d8c65ad6566c27f23eb13.jar" />
     </item>
     <item
+        jar="/home/lossurdo/desenvolvimento/android-md-initial-project/app/build/intermediates/exploded-aar/com.jakewharton.timber/timber/4.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f45a0143e9c43a459f3f331a6b3e7daf13981ef4">
+        <dex dex="/home/lossurdo/desenvolvimento/android-md-initial-project/app/build/intermediates/pre-dexed/debug/com.jakewharton.timber-timber-4.1.0_c5eb8fe767d7a76fc5e7cdf1390288421d0a4961.jar" />
+    </item>
+    <item
         jar="/home/lossurdo/desenvolvimento/android-md-initial-project/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.2"
@@ -42,6 +49,13 @@
         revision="23.0.2"
         sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
         <dex dex="/home/lossurdo/desenvolvimento/android-md-initial-project/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.1.1_d01cc86951127d069e38713353e377889a773a54.jar" />
+    </item>
+    <item
+        jar="/home/lossurdo/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="/home/lossurdo/desenvolvimento/android-md-initial-project/app/build/intermediates/pre-dexed/debug/butterknife-7.0.1_cef0c9ddf8f3ed42e8bcf067db1ad15ec5670ed7.jar" />
     </item>
 
 </items>

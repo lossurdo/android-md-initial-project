@@ -11,6 +11,15 @@ android {
         versionCode 1
         versionName "1.0"
     }
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'LICENSE.txt'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE'
+    }
+
     buildTypes {
         release {
             minifyEnabled false
@@ -23,4 +32,13 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:23.1.1'
     compile 'com.android.support:design:23.1.1'
+
+    // logger
+    compile 'com.jakewharton.timber:timber:4.1.0'
+
+    // inject
+    compile 'com.jakewharton:butterknife:7.0.1'
+
+    // material design icons
+    compile 'com.malinskiy:materialicons:1.0.2'
 }

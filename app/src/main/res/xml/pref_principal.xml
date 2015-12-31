@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Divisão 1">
+        <EditTextPreference
+            android:key="vlrSalario"
+            android:title="Salário"
+            android:summary="Valor de salário pretendido"
+            android:defaultValue="10000.00"
+            android:numeric="decimal"
+            />
+        <ListPreference
+            android:dependency="vlrSalario"
+            android:key="vlrTicket"
+            android:title="Tickets"
+            android:summary="Valor unitário do ticket"
+            android:dialogTitle="Escolha sua opção"
+            android:entries="@array/ticket_labels"
+            android:entryValues="@array/ticket_values"
+            android:defaultValue="Pequeno"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Divisão 2">
+        <SwitchPreference
+            android:dependency="vlrTicket"
+            android:key="indVenderFerias"
+            android:title="Férias"
+            android:summary="Deseja vender 10 dias das férias?"
+            android:defaultValue="false"
+            />
+    </PreferenceCategory>
+
+</PreferenceScreen>

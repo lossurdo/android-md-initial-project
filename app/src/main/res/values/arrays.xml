@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ticket_labels">
+        <item>Pequeno</item>
+        <item>Médio</item>
+        <item>Grande</item>
+    </string-array>
+
+    <string-array name="ticket_values">
+        <item>100.00</item>
+        <item>150.00</item>
+        <item>200.0</item>
+    </string-array>
+</resources>

@@ -1,7 +1,9 @@
 package com.lossurdo.androidmdinitialproject.activity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -14,6 +16,7 @@ import android.widget.TextView;
 
 import com.lossurdo.androidmdinitialproject.R;
 import com.lossurdo.androidmdinitialproject.rest.OmdbService;
+import com.lossurdo.androidmdinitialproject.util.infra.Preferencias;
 import com.lossurdo.androidmdinitialproject.util.infra.RestUtil;
 import com.lossurdo.androidmdinitialproject.rest.Seriado;
 import com.lossurdo.androidmdinitialproject.util.view.SnackbarUtil;
@@ -73,7 +76,9 @@ public class MainActivity extends AppCompatActivity implements Callback<Seriado>
             @Override
             public void onClick(View view) {
                 Timber.d("Abrindo snackbar");
-                SnackbarUtil.make(view, "Snackbar Test ");
+
+                SnackbarUtil.make(view, "Salário: " +
+                        Preferencias.getFloat(getBaseContext(), "vlrSalario"));
             }
         });
     }
@@ -100,6 +105,7 @@ public class MainActivity extends AppCompatActivity implements Callback<Seriado>
         int id = item.getItemId();
 
         if (id == R.id.action_settings) {
+            startActivity(new Intent(getBaseContext(), PreferenciasActivity.class));
             return true;
         }
 

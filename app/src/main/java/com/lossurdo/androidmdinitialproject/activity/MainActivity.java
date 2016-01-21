@@ -1,9 +1,7 @@
 package com.lossurdo.androidmdinitialproject.activity;
 
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.preference.PreferenceManager;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -16,6 +14,7 @@ import android.widget.TextView;
 
 import com.lossurdo.androidmdinitialproject.R;
 import com.lossurdo.androidmdinitialproject.rest.OmdbService;
+import com.lossurdo.androidmdinitialproject.util.infra.ConnectivityUtil;
 import com.lossurdo.androidmdinitialproject.util.infra.Preferencias;
 import com.lossurdo.androidmdinitialproject.util.infra.RestUtil;
 import com.lossurdo.androidmdinitialproject.rest.Seriado;
@@ -23,6 +22,7 @@ import com.lossurdo.androidmdinitialproject.util.view.SnackbarUtil;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
+import nl.changer.android.opensource.Utils;
 import retrofit.Call;
 import retrofit.Callback;
 import retrofit.Response;
@@ -106,6 +106,20 @@ public class MainActivity extends AppCompatActivity implements Callback<Seriado>
 
         if (id == R.id.action_settings) {
             startActivity(new Intent(getBaseContext(), PreferenciasActivity.class));
+            return true;
+        }
+
+        if (id == R.id.action_check_connection) {
+            boolean conectado = ConnectivityUtil.isConnected(this);
+            boolean wifi = ConnectivityUtil.isConnectedWifi(this);
+            boolean mobile = ConnectivityUtil.isConnectedMobile(this);
+
+            StringBuilder sb = new StringBuilder();
+            sb.append("Conectado? ").append(conectado).append(" | ");
+            sb.append("Wifi? ").append(wifi).append(" | ");
+            sb.append("3G/4G? ").append(mobile);
+
+            Utils.showToast(this, sb.toString());
             return true;
         }
 

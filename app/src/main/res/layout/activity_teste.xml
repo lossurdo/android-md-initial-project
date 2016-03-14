@@ -16,4 +16,12 @@
         android:id="@+id/btnDialog1"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mapa"
+        android:id="@+id/btnMapa"
+        android:layout_below="@+id/btnDialog1"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

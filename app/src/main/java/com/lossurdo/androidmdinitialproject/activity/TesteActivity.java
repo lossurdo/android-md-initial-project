@@ -4,12 +4,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.lossurdo.androidmdinitialproject.R;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
-import nl.changer.android.opensource.Utils;
 import timber.log.Timber;
 
 public class TesteActivity extends AppCompatActivity {
@@ -28,9 +28,7 @@ public class TesteActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Timber.d("Clicado no botão de Diálogo 1");
-                Utils.showConfirmDialog(v.getContext()
-                        , "Deseja mesmo executar esta operação?", null, null
-                        , "Sim", "Não");
+                Toast.makeText(TesteActivity.this, "Clicado no botão de Diálogo 1", Toast.LENGTH_SHORT).show();
             }
         });
     }

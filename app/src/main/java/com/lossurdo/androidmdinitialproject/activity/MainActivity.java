@@ -11,6 +11,7 @@ import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.lossurdo.androidmdinitialproject.R;
 import com.lossurdo.androidmdinitialproject.rest.OmdbService;
@@ -22,7 +23,6 @@ import com.lossurdo.androidmdinitialproject.util.view.SnackbarUtil;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
-import nl.changer.android.opensource.Utils;
 import retrofit.Call;
 import retrofit.Callback;
 import retrofit.Response;
@@ -119,7 +119,7 @@ public class MainActivity extends AppCompatActivity implements Callback<Seriado>
             sb.append("Wifi? ").append(wifi).append(" | ");
             sb.append("3G/4G? ").append(mobile);
 
-            Utils.showToast(this, sb.toString());
+            Toast.makeText(MainActivity.this, sb.toString(), Toast.LENGTH_LONG).show();
             return true;
         }
 

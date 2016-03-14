@@ -26,20 +26,15 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_7
-        targetCompatibility JavaVersion.VERSION_1_7
-    }
 }
 
 dependencies {
-    final SUPPORT_LIBRARY_VERSION = '23.1.1'
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile "com.android.support:appcompat-v7:$SUPPORT_LIBRARY_VERSION"
-    compile "com.android.support:design:$SUPPORT_LIBRARY_VERSION"
-    compile "com.android.support:cardview-v7:$SUPPORT_LIBRARY_VERSION"
-    compile "com.android.support:design:$SUPPORT_LIBRARY_VERSION"
-    compile "com.android.support:recyclerview-v7:$SUPPORT_LIBRARY_VERSION"
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.android.support:design:23.1.1'
+    compile 'com.android.support:cardview-v7:23.1.1'
+    compile 'com.android.support:design:23.1.1'
+    compile 'com.android.support:recyclerview-v7:23.1.1'
 
     // logging
     compile 'com.jakewharton.timber:timber:4.1.0'
@@ -54,22 +49,11 @@ dependencies {
     compile 'com.squareup.retrofit:retrofit:2.0.0-beta2'
     compile 'com.squareup.retrofit:converter-gson:2.0.0-beta2'
 
-    // HTTP Client (chamadas não-REST -- https://hc.apache.org/httpcomponents-client-ga/examples.html)
-    compile 'cz.msebera.android:httpclient:4.4.1.1'
+    // Conflitam com o Google Play Services
+    //compile 'cz.msebera.android:httpclient:4.4.1.1'
+    //compile 'net.the4thdimension:android-utils:2.0.4'
+
     compile 'commons-io:commons-io:2.4'
 
-    /*
-    https://github.com/changer/android-utils
-
-    MediaUtils - Set of utilities to handle media resize, scaling, rotation and other relevant stuff.
-    ImageUtils - Set of utilities to handle image manipulation.
-    DateUtils - Set of utilities to handle date manipulation.
-    AudioUtils - Set of utilities to handle audio recodring, playing and saving to disk.
-    Utils - Set of general purpose utility methods.
-    StorageManager - Android SharedPreferences abstraction.
-    AWSUploader - Utility methods to upload objects to Amazon S3.
-    YouTubeUtils - Set of utilities to handle YouTube related stuff.
-    ViewUtils - Set of utilities to handle Android Views' related stuff.
-    */
-    compile 'net.the4thdimension:android-utils:2.0.4'
+    compile 'com.google.android.gms:play-services:8.4.0'
 }
